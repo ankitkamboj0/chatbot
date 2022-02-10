@@ -6,7 +6,8 @@ dotenv.config();
 const app = express();
 app.get("/",(req,resp)=>{
   resp.send("running");
-})
+});
+
 app.get("/api",(request,response) => {
   response.send(data);
 });
